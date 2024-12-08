@@ -1,5 +1,5 @@
 # Notes App
-![Description of the GIF](assets/demo.gif)
+![Demo](Notes/Assets.xcassets/demo.dataset/demo.gif)
 
 ## Description
 This is an iOS app for creating and storing notes.
