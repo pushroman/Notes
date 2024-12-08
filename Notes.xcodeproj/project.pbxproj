@@ -7,15 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1EB348CFB6E8197E795AD45D /* Pods_NotesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D74B51BEF7A49BB2619684B /* Pods_NotesTests.framework */; };
+		5FDB3A24C80412DC5CCD7C15 /* Pods_Notes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECA73D187CC1DF10E66D7D30 /* Pods_Notes.framework */; };
+		A62361DA2CF1E87E00F168C6 /* SetupTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62361D92CF1E87E00F168C6 /* SetupTable.swift */; };
 		A67ABF892CF0DE500038FAFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67ABF882CF0DE500038FAFD /* AppDelegate.swift */; };
 		A67ABF8B2CF0DE500038FAFD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67ABF8A2CF0DE500038FAFD /* SceneDelegate.swift */; };
-		A67ABF8D2CF0DE500038FAFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67ABF8C2CF0DE500038FAFD /* ViewController.swift */; };
-		A67ABF902CF0DE500038FAFD /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A67ABF8F2CF0DE500038FAFD /* Base */; };
 		A67ABF922CF0DE510038FAFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A67ABF912CF0DE510038FAFD /* Assets.xcassets */; };
 		A67ABF952CF0DE510038FAFD /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A67ABF942CF0DE510038FAFD /* Base */; };
 		A67ABFA02CF0DE510038FAFD /* NotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67ABF9F2CF0DE510038FAFD /* NotesTests.swift */; };
 		A67ABFAA2CF0DE510038FAFD /* NotesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67ABFA92CF0DE510038FAFD /* NotesUITests.swift */; };
 		A67ABFAC2CF0DE510038FAFD /* NotesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67ABFAB2CF0DE510038FAFD /* NotesUITestsLaunchTests.swift */; };
+		A67ABFBC2CF0E2DA0038FAFD /* MadelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67ABFBB2CF0E2DA0038FAFD /* MadelData.swift */; };
+		A67ABFBF2CF0EDEE0038FAFD /* DataLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67ABFBE2CF0EDEE0038FAFD /* DataLogic.swift */; };
+		A67ABFC12CF111610038FAFD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67ABFC02CF111610038FAFD /* MainViewController.swift */; };
+		A67ABFC52CF114350038FAFD /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67ABFC42CF114350038FAFD /* NoteViewController.swift */; };
+		A6B174ED2D044F000042DE12 /* Gilroy-UltraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6B174E32D044EFF0042DE12 /* Gilroy-UltraLight.ttf */; };
+		A6B174EE2D044F000042DE12 /* Gilroy-UltraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6B174E32D044EFF0042DE12 /* Gilroy-UltraLight.ttf */; };
+		A6B174EF2D044F000042DE12 /* Gilroy-UltraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6B174E32D044EFF0042DE12 /* Gilroy-UltraLight.ttf */; };
+		A6B174F02D044F000042DE12 /* Gilroy-Extrabold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6B174E42D044EFF0042DE12 /* Gilroy-Extrabold.ttf */; };
+		A6B174F12D044F000042DE12 /* Gilroy-Extrabold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6B174E42D044EFF0042DE12 /* Gilroy-Extrabold.ttf */; };
+		A6B174F22D044F000042DE12 /* Gilroy-Extrabold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6B174E42D044EFF0042DE12 /* Gilroy-Extrabold.ttf */; };
+		A6B174F32D044F000042DE12 /* Gilroy-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6B174E52D044EFF0042DE12 /* Gilroy-Heavy.ttf */; };
+		A6B174F42D044F000042DE12 /* Gilroy-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6B174E52D044EFF0042DE12 /* Gilroy-Heavy.ttf */; };
+		A6B174F52D044F000042DE12 /* Gilroy-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6B174E52D044EFF0042DE12 /* Gilroy-Heavy.ttf */; };
+		A6B174F62D044F000042DE12 /* Gilroy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6B174E62D044EFF0042DE12 /* Gilroy-Regular.ttf */; };
+		A6B174F72D044F000042DE12 /* Gilroy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6B174E62D044EFF0042DE12 /* Gilroy-Regular.ttf */; };
+		A6B174F82D044F000042DE12 /* Gilroy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6B174E62D044EFF0042DE12 /* Gilroy-Regular.ttf */; };
+		A6B174F92D044F000042DE12 /* Gilroy-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6B174E72D044EFF0042DE12 /* Gilroy-Black.ttf */; };
+		A6B174FA2D044F000042DE12 /* Gilroy-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6B174E72D044EFF0042DE12 /* Gilroy-Black.ttf */; };
+		A6B174FB2D044F000042DE12 /* Gilroy-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6B174E72D044EFF0042DE12 /* Gilroy-Black.ttf */; };
+		A6B174FC2D044F000042DE12 /* Gilroy-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6B174E82D044EFF0042DE12 /* Gilroy-Semibold.ttf */; };
+		A6B174FD2D044F000042DE12 /* Gilroy-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6B174E82D044EFF0042DE12 /* Gilroy-Semibold.ttf */; };
+		A6B174FE2D044F000042DE12 /* Gilroy-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6B174E82D044EFF0042DE12 /* Gilroy-Semibold.ttf */; };
+		A6B174FF2D044F000042DE12 /* Gilroy-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6B174E92D044EFF0042DE12 /* Gilroy-Thin.ttf */; };
+		A6B175002D044F000042DE12 /* Gilroy-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6B174E92D044EFF0042DE12 /* Gilroy-Thin.ttf */; };
+		A6B175012D044F000042DE12 /* Gilroy-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6B174E92D044EFF0042DE12 /* Gilroy-Thin.ttf */; };
+		A6B175022D044F000042DE12 /* Gilroy-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6B174EA2D044EFF0042DE12 /* Gilroy-Light.ttf */; };
+		A6B175032D044F000042DE12 /* Gilroy-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6B174EA2D044EFF0042DE12 /* Gilroy-Light.ttf */; };
+		A6B175042D044F000042DE12 /* Gilroy-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6B174EA2D044EFF0042DE12 /* Gilroy-Light.ttf */; };
+		A6B175052D044F000042DE12 /* Gilroy-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6B174EB2D044F000042DE12 /* Gilroy-Bold.ttf */; };
+		A6B175062D044F000042DE12 /* Gilroy-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6B174EB2D044F000042DE12 /* Gilroy-Bold.ttf */; };
+		A6B175072D044F000042DE12 /* Gilroy-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6B174EB2D044F000042DE12 /* Gilroy-Bold.ttf */; };
+		A6B175082D044F000042DE12 /* Gilroy-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6B174EC2D044F000042DE12 /* Gilroy-Medium.ttf */; };
+		A6B175092D044F000042DE12 /* Gilroy-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6B174EC2D044F000042DE12 /* Gilroy-Medium.ttf */; };
+		A6B1750A2D044F000042DE12 /* Gilroy-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6B174EC2D044F000042DE12 /* Gilroy-Medium.ttf */; };
+		A6B1750D2D0477D00042DE12 /* SetupColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B1750C2D0477D00042DE12 /* SetupColor.swift */; };
+		A6B1750E2D0477D00042DE12 /* SetupColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B1750C2D0477D00042DE12 /* SetupColor.swift */; };
+		A6B1750F2D0477D00042DE12 /* SetupColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B1750C2D0477D00042DE12 /* SetupColor.swift */; };
+		A6B175112D049AC30042DE12 /* SetupSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B175102D049AC30042DE12 /* SetupSearch.swift */; };
+		A6B175122D049AC30042DE12 /* SetupSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B175102D049AC30042DE12 /* SetupSearch.swift */; };
+		A6B175132D049AC30042DE12 /* SetupSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B175102D049AC30042DE12 /* SetupSearch.swift */; };
+		A6CBED3A2D0429D5004459E4 /* SetupKeyBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CBED392D0429D5004459E4 /* SetupKeyBoard.swift */; };
+		D4972DB872C47F1B21C6C97A /* Pods_Notes_NotesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19073C40005753B87CEB0B12 /* Pods_Notes_NotesUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +79,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0166F6C04445C19E7605B818 /* Pods-Notes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Notes.debug.xcconfig"; path = "Target Support Files/Pods-Notes/Pods-Notes.debug.xcconfig"; sourceTree = "<group>"; };
+		19073C40005753B87CEB0B12 /* Pods_Notes_NotesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Notes_NotesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DCB47483600EB7701DAA886 /* Pods-NotesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotesTests.debug.xcconfig"; path = "Target Support Files/Pods-NotesTests/Pods-NotesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		847C8BE0C1DC3AC0844144F2 /* Pods-Notes-NotesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Notes-NotesUITests.debug.xcconfig"; path = "Target Support Files/Pods-Notes-NotesUITests/Pods-Notes-NotesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8D74B51BEF7A49BB2619684B /* Pods_NotesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C8336D965C2AD072BFDA219 /* Pods-Notes-NotesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Notes-NotesUITests.release.xcconfig"; path = "Target Support Files/Pods-Notes-NotesUITests/Pods-Notes-NotesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A62361D92CF1E87E00F168C6 /* SetupTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupTable.swift; sourceTree = "<group>"; };
 		A67ABF852CF0DE500038FAFD /* Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A67ABF882CF0DE500038FAFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A67ABF8A2CF0DE500038FAFD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A67ABF8C2CF0DE500038FAFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A67ABF8F2CF0DE500038FAFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A67ABF912CF0DE510038FAFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A67ABF942CF0DE510038FAFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A67ABF962CF0DE510038FAFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +97,26 @@
 		A67ABFA52CF0DE510038FAFD /* NotesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A67ABFA92CF0DE510038FAFD /* NotesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesUITests.swift; sourceTree = "<group>"; };
 		A67ABFAB2CF0DE510038FAFD /* NotesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A67ABFBB2CF0E2DA0038FAFD /* MadelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MadelData.swift; sourceTree = "<group>"; };
+		A67ABFBE2CF0EDEE0038FAFD /* DataLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLogic.swift; sourceTree = "<group>"; };
+		A67ABFC02CF111610038FAFD /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		A67ABFC42CF114350038FAFD /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
+		A6B174E32D044EFF0042DE12 /* Gilroy-UltraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gilroy-UltraLight.ttf"; path = "../../../../Quick Recipe/Quick Recipe/Front/Gilroy-UltraLight.ttf"; sourceTree = "<group>"; };
+		A6B174E42D044EFF0042DE12 /* Gilroy-Extrabold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gilroy-Extrabold.ttf"; path = "../../../../Quick Recipe/Quick Recipe/Front/Gilroy-Extrabold.ttf"; sourceTree = "<group>"; };
+		A6B174E52D044EFF0042DE12 /* Gilroy-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gilroy-Heavy.ttf"; path = "../../../../Quick Recipe/Quick Recipe/Front/Gilroy-Heavy.ttf"; sourceTree = "<group>"; };
+		A6B174E62D044EFF0042DE12 /* Gilroy-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gilroy-Regular.ttf"; path = "../../../../Quick Recipe/Quick Recipe/Front/Gilroy-Regular.ttf"; sourceTree = "<group>"; };
+		A6B174E72D044EFF0042DE12 /* Gilroy-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gilroy-Black.ttf"; path = "../../../../Quick Recipe/Quick Recipe/Front/Gilroy-Black.ttf"; sourceTree = "<group>"; };
+		A6B174E82D044EFF0042DE12 /* Gilroy-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gilroy-Semibold.ttf"; path = "../../../../Quick Recipe/Quick Recipe/Front/Gilroy-Semibold.ttf"; sourceTree = "<group>"; };
+		A6B174E92D044EFF0042DE12 /* Gilroy-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gilroy-Thin.ttf"; path = "../../../../Quick Recipe/Quick Recipe/Front/Gilroy-Thin.ttf"; sourceTree = "<group>"; };
+		A6B174EA2D044EFF0042DE12 /* Gilroy-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gilroy-Light.ttf"; path = "../../../../Quick Recipe/Quick Recipe/Front/Gilroy-Light.ttf"; sourceTree = "<group>"; };
+		A6B174EB2D044F000042DE12 /* Gilroy-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gilroy-Bold.ttf"; path = "../../../../Quick Recipe/Quick Recipe/Front/Gilroy-Bold.ttf"; sourceTree = "<group>"; };
+		A6B174EC2D044F000042DE12 /* Gilroy-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gilroy-Medium.ttf"; path = "../../../../Quick Recipe/Quick Recipe/Front/Gilroy-Medium.ttf"; sourceTree = "<group>"; };
+		A6B1750C2D0477D00042DE12 /* SetupColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupColor.swift; sourceTree = "<group>"; };
+		A6B175102D049AC30042DE12 /* SetupSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupSearch.swift; sourceTree = "<group>"; };
+		A6CBED392D0429D5004459E4 /* SetupKeyBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupKeyBoard.swift; sourceTree = "<group>"; };
+		C215318E5F40AAE35B5C19B3 /* Pods-NotesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotesTests.release.xcconfig"; path = "Target Support Files/Pods-NotesTests/Pods-NotesTests.release.xcconfig"; sourceTree = "<group>"; };
+		ECA73D187CC1DF10E66D7D30 /* Pods_Notes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Notes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F12E536C112FC89703F0CCE7 /* Pods-Notes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Notes.release.xcconfig"; path = "Target Support Files/Pods-Notes/Pods-Notes.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FDB3A24C80412DC5CCD7C15 /* Pods_Notes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +132,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EB348CFB6E8197E795AD45D /* Pods_NotesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +140,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4972DB872C47F1B21C6C97A /* Pods_Notes_NotesUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +154,8 @@
 				A67ABF9E2CF0DE510038FAFD /* NotesTests */,
 				A67ABFA82CF0DE510038FAFD /* NotesUITests */,
 				A67ABF862CF0DE500038FAFD /* Products */,
+				D656BB8CF516F7BB389DD202 /* Pods */,
+				EDC89E19BD7E9F385CF0DE7F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +172,13 @@
 		A67ABF872CF0DE500038FAFD /* Notes */ = {
 			isa = PBXGroup;
 			children = (
-				A67ABF882CF0DE500038FAFD /* AppDelegate.swift */,
-				A67ABF8A2CF0DE500038FAFD /* SceneDelegate.swift */,
-				A67ABF8C2CF0DE500038FAFD /* ViewController.swift */,
-				A67ABF8E2CF0DE500038FAFD /* Main.storyboard */,
+				A67ABFB82CF0E0BB0038FAFD /* Models */,
+				A67ABFB92CF0E0C50038FAFD /* Views */,
+				A67ABFBA2CF0E0D00038FAFD /* Controllers */,
+				A6CBED3D2D044B92004459E4 /* Resources */,
 				A67ABF912CF0DE510038FAFD /* Assets.xcassets */,
-				A67ABF932CF0DE510038FAFD /* LaunchScreen.storyboard */,
 				A67ABF962CF0DE510038FAFD /* Info.plist */,
+				A67ABF932CF0DE510038FAFD /* LaunchScreen.storyboard */,
 			);
 			path = Notes;
 			sourceTree = "<group>";
@@ -127,6 +200,86 @@
 			path = NotesUITests;
 			sourceTree = "<group>";
 		};
+		A67ABFB82CF0E0BB0038FAFD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A67ABFBB2CF0E2DA0038FAFD /* MadelData.swift */,
+				A67ABFBE2CF0EDEE0038FAFD /* DataLogic.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A67ABFB92CF0E0C50038FAFD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A62361D92CF1E87E00F168C6 /* SetupTable.swift */,
+				A6CBED392D0429D5004459E4 /* SetupKeyBoard.swift */,
+				A6B1750C2D0477D00042DE12 /* SetupColor.swift */,
+				A6B175102D049AC30042DE12 /* SetupSearch.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A67ABFBA2CF0E0D00038FAFD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A67ABFC42CF114350038FAFD /* NoteViewController.swift */,
+				A67ABFC02CF111610038FAFD /* MainViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A6CBED3D2D044B92004459E4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A6DE97582CF334A700F15002 /* Fonts */,
+				A67ABF882CF0DE500038FAFD /* AppDelegate.swift */,
+				A67ABF8A2CF0DE500038FAFD /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A6DE97582CF334A700F15002 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A6B174E72D044EFF0042DE12 /* Gilroy-Black.ttf */,
+				A6B174EB2D044F000042DE12 /* Gilroy-Bold.ttf */,
+				A6B174E42D044EFF0042DE12 /* Gilroy-Extrabold.ttf */,
+				A6B174E52D044EFF0042DE12 /* Gilroy-Heavy.ttf */,
+				A6B174EA2D044EFF0042DE12 /* Gilroy-Light.ttf */,
+				A6B174EC2D044F000042DE12 /* Gilroy-Medium.ttf */,
+				A6B174E62D044EFF0042DE12 /* Gilroy-Regular.ttf */,
+				A6B174E82D044EFF0042DE12 /* Gilroy-Semibold.ttf */,
+				A6B174E92D044EFF0042DE12 /* Gilroy-Thin.ttf */,
+				A6B174E32D044EFF0042DE12 /* Gilroy-UltraLight.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		D656BB8CF516F7BB389DD202 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0166F6C04445C19E7605B818 /* Pods-Notes.debug.xcconfig */,
+				F12E536C112FC89703F0CCE7 /* Pods-Notes.release.xcconfig */,
+				847C8BE0C1DC3AC0844144F2 /* Pods-Notes-NotesUITests.debug.xcconfig */,
+				9C8336D965C2AD072BFDA219 /* Pods-Notes-NotesUITests.release.xcconfig */,
+				3DCB47483600EB7701DAA886 /* Pods-NotesTests.debug.xcconfig */,
+				C215318E5F40AAE35B5C19B3 /* Pods-NotesTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EDC89E19BD7E9F385CF0DE7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECA73D187CC1DF10E66D7D30 /* Pods_Notes.framework */,
+				19073C40005753B87CEB0B12 /* Pods_Notes_NotesUITests.framework */,
+				8D74B51BEF7A49BB2619684B /* Pods_NotesTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,6 +287,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A67ABFAF2CF0DE510038FAFD /* Build configuration list for PBXNativeTarget "Notes" */;
 			buildPhases = (
+				342D1EBD04588AD5FD24DB4E /* [CP] Check Pods Manifest.lock */,
 				A67ABF812CF0DE500038FAFD /* Sources */,
 				A67ABF822CF0DE500038FAFD /* Frameworks */,
 				A67ABF832CF0DE500038FAFD /* Resources */,
@@ -151,6 +305,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A67ABFB22CF0DE510038FAFD /* Build configuration list for PBXNativeTarget "NotesTests" */;
 			buildPhases = (
+				AB97042ED424F0244FA23089 /* [CP] Check Pods Manifest.lock */,
 				A67ABF972CF0DE510038FAFD /* Sources */,
 				A67ABF982CF0DE510038FAFD /* Frameworks */,
 				A67ABF992CF0DE510038FAFD /* Resources */,
@@ -169,6 +324,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A67ABFB52CF0DE510038FAFD /* Build configuration list for PBXNativeTarget "NotesUITests" */;
 			buildPhases = (
+				22FD9470C536D9B94C053979 /* [CP] Check Pods Manifest.lock */,
 				A67ABFA12CF0DE510038FAFD /* Sources */,
 				A67ABFA22CF0DE510038FAFD /* Frameworks */,
 				A67ABFA32CF0DE510038FAFD /* Resources */,
@@ -231,9 +387,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6B174F02D044F000042DE12 /* Gilroy-Extrabold.ttf in Resources */,
+				A6B175082D044F000042DE12 /* Gilroy-Medium.ttf in Resources */,
+				A6B174FC2D044F000042DE12 /* Gilroy-Semibold.ttf in Resources */,
+				A6B174F62D044F000042DE12 /* Gilroy-Regular.ttf in Resources */,
+				A6B175052D044F000042DE12 /* Gilroy-Bold.ttf in Resources */,
+				A6B175022D044F000042DE12 /* Gilroy-Light.ttf in Resources */,
 				A67ABF922CF0DE510038FAFD /* Assets.xcassets in Resources */,
 				A67ABF952CF0DE510038FAFD /* Base in Resources */,
-				A67ABF902CF0DE500038FAFD /* Base in Resources */,
+				A6B174ED2D044F000042DE12 /* Gilroy-UltraLight.ttf in Resources */,
+				A6B174FF2D044F000042DE12 /* Gilroy-Thin.ttf in Resources */,
+				A6B174F92D044F000042DE12 /* Gilroy-Black.ttf in Resources */,
+				A6B174F32D044F000042DE12 /* Gilroy-Heavy.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +406,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6B174F42D044F000042DE12 /* Gilroy-Heavy.ttf in Resources */,
+				A6B174F12D044F000042DE12 /* Gilroy-Extrabold.ttf in Resources */,
+				A6B174EE2D044F000042DE12 /* Gilroy-UltraLight.ttf in Resources */,
+				A6B175062D044F000042DE12 /* Gilroy-Bold.ttf in Resources */,
+				A6B175002D044F000042DE12 /* Gilroy-Thin.ttf in Resources */,
+				A6B174FD2D044F000042DE12 /* Gilroy-Semibold.ttf in Resources */,
+				A6B174FA2D044F000042DE12 /* Gilroy-Black.ttf in Resources */,
+				A6B175092D044F000042DE12 /* Gilroy-Medium.ttf in Resources */,
+				A6B174F72D044F000042DE12 /* Gilroy-Regular.ttf in Resources */,
+				A6B175032D044F000042DE12 /* Gilroy-Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,19 +423,105 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6B174F52D044F000042DE12 /* Gilroy-Heavy.ttf in Resources */,
+				A6B174F22D044F000042DE12 /* Gilroy-Extrabold.ttf in Resources */,
+				A6B174EF2D044F000042DE12 /* Gilroy-UltraLight.ttf in Resources */,
+				A6B175072D044F000042DE12 /* Gilroy-Bold.ttf in Resources */,
+				A6B175012D044F000042DE12 /* Gilroy-Thin.ttf in Resources */,
+				A6B174FE2D044F000042DE12 /* Gilroy-Semibold.ttf in Resources */,
+				A6B174FB2D044F000042DE12 /* Gilroy-Black.ttf in Resources */,
+				A6B1750A2D044F000042DE12 /* Gilroy-Medium.ttf in Resources */,
+				A6B174F82D044F000042DE12 /* Gilroy-Regular.ttf in Resources */,
+				A6B175042D044F000042DE12 /* Gilroy-Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22FD9470C536D9B94C053979 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Notes-NotesUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		342D1EBD04588AD5FD24DB4E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Notes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB97042ED424F0244FA23089 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NotesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A67ABF812CF0DE500038FAFD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A67ABF8D2CF0DE500038FAFD /* ViewController.swift in Sources */,
 				A67ABF892CF0DE500038FAFD /* AppDelegate.swift in Sources */,
+				A67ABFBF2CF0EDEE0038FAFD /* DataLogic.swift in Sources */,
+				A6B1750D2D0477D00042DE12 /* SetupColor.swift in Sources */,
+				A67ABFC12CF111610038FAFD /* MainViewController.swift in Sources */,
+				A62361DA2CF1E87E00F168C6 /* SetupTable.swift in Sources */,
+				A6B175112D049AC30042DE12 /* SetupSearch.swift in Sources */,
+				A6CBED3A2D0429D5004459E4 /* SetupKeyBoard.swift in Sources */,
 				A67ABF8B2CF0DE500038FAFD /* SceneDelegate.swift in Sources */,
+				A67ABFC52CF114350038FAFD /* NoteViewController.swift in Sources */,
+				A67ABFBC2CF0E2DA0038FAFD /* MadelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +530,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A67ABFA02CF0DE510038FAFD /* NotesTests.swift in Sources */,
+				A6B1750E2D0477D00042DE12 /* SetupColor.swift in Sources */,
+				A6B175122D049AC30042DE12 /* SetupSearch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +541,8 @@
 			files = (
 				A67ABFAC2CF0DE510038FAFD /* NotesUITestsLaunchTests.swift in Sources */,
 				A67ABFAA2CF0DE510038FAFD /* NotesUITests.swift in Sources */,
+				A6B1750F2D0477D00042DE12 /* SetupColor.swift in Sources */,
+				A6B175132D049AC30042DE12 /* SetupSearch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +562,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A67ABF8E2CF0DE500038FAFD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A67ABF8F2CF0DE500038FAFD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A67ABF932CF0DE510038FAFD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -437,6 +694,7 @@
 		};
 		A67ABFB02CF0DE510038FAFD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0166F6C04445C19E7605B818 /* Pods-Notes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -447,7 +705,7 @@
 				INFOPLIST_FILE = Notes/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -465,6 +723,7 @@
 		};
 		A67ABFB12CF0DE510038FAFD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F12E536C112FC89703F0CCE7 /* Pods-Notes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -475,7 +734,7 @@
 				INFOPLIST_FILE = Notes/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -493,6 +752,7 @@
 		};
 		A67ABFB32CF0DE510038FAFD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DCB47483600EB7701DAA886 /* Pods-NotesTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -513,6 +773,7 @@
 		};
 		A67ABFB42CF0DE510038FAFD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C215318E5F40AAE35B5C19B3 /* Pods-NotesTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -533,6 +794,7 @@
 		};
 		A67ABFB62CF0DE510038FAFD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 847C8BE0C1DC3AC0844144F2 /* Pods-Notes-NotesUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -551,6 +813,7 @@
 		};
 		A67ABFB72CF0DE510038FAFD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C8336D965C2AD072BFDA219 /* Pods-Notes-NotesUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
