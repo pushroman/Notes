@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1EB348CFB6E8197E795AD45D /* Pods_NotesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D74B51BEF7A49BB2619684B /* Pods_NotesTests.framework */; };
 		5FDB3A24C80412DC5CCD7C15 /* Pods_Notes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECA73D187CC1DF10E66D7D30 /* Pods_Notes.framework */; };
+		A61F95132D062DA8002920BA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A61F95122D062DA8002920BA /* README.md */; };
 		A62361DA2CF1E87E00F168C6 /* SetupTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62361D92CF1E87E00F168C6 /* SetupTable.swift */; };
 		A67ABF892CF0DE500038FAFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67ABF882CF0DE500038FAFD /* AppDelegate.swift */; };
 		A67ABF8B2CF0DE500038FAFD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67ABF8A2CF0DE500038FAFD /* SceneDelegate.swift */; };
@@ -85,6 +86,7 @@
 		847C8BE0C1DC3AC0844144F2 /* Pods-Notes-NotesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Notes-NotesUITests.debug.xcconfig"; path = "Target Support Files/Pods-Notes-NotesUITests/Pods-Notes-NotesUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8D74B51BEF7A49BB2619684B /* Pods_NotesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C8336D965C2AD072BFDA219 /* Pods-Notes-NotesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Notes-NotesUITests.release.xcconfig"; path = "Target Support Files/Pods-Notes-NotesUITests/Pods-Notes-NotesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A61F95122D062DA8002920BA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A62361D92CF1E87E00F168C6 /* SetupTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupTable.swift; sourceTree = "<group>"; };
 		A67ABF852CF0DE500038FAFD /* Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A67ABF882CF0DE500038FAFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -177,6 +179,7 @@
 				A67ABFBA2CF0E0D00038FAFD /* Controllers */,
 				A6CBED3D2D044B92004459E4 /* Resources */,
 				A67ABF912CF0DE510038FAFD /* Assets.xcassets */,
+				A61F95122D062DA8002920BA /* README.md */,
 				A67ABF962CF0DE510038FAFD /* Info.plist */,
 				A67ABF932CF0DE510038FAFD /* LaunchScreen.storyboard */,
 			);
@@ -266,7 +269,6 @@
 				3DCB47483600EB7701DAA886 /* Pods-NotesTests.debug.xcconfig */,
 				C215318E5F40AAE35B5C19B3 /* Pods-NotesTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -391,6 +393,7 @@
 				A6B175082D044F000042DE12 /* Gilroy-Medium.ttf in Resources */,
 				A6B174FC2D044F000042DE12 /* Gilroy-Semibold.ttf in Resources */,
 				A6B174F62D044F000042DE12 /* Gilroy-Regular.ttf in Resources */,
+				A61F95132D062DA8002920BA /* README.md in Resources */,
 				A6B175052D044F000042DE12 /* Gilroy-Bold.ttf in Resources */,
 				A6B175022D044F000042DE12 /* Gilroy-Light.ttf in Resources */,
 				A67ABF922CF0DE510038FAFD /* Assets.xcassets in Resources */,
