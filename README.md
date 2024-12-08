@@ -1,5 +1,6 @@
 # Notes App
-![Demo](Notes/Assets.xcassets/demo.dataset/demo.gif)
+
+<img src="Notes/Assets.xcassets/demo.dataset/demo.gif" alt="App Demo" width="300"/>
 
 ## Description
 This is an iOS app for creating and storing notes.
