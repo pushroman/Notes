@@ -30,9 +30,7 @@ class NoteViewController: UIViewController {
         textView.textContainerInset.left = 20
         textView.textContainerInset.right = 20
         textView.tintColor = Color.shared.main
-        view.addSubview(textView)
-        
-        textView.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubviews([textView])
         
         NSLayoutConstraint.activate([
             textView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),

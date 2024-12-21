@@ -21,6 +21,7 @@
 		A67ABFBF2CF0EDEE0038FAFD /* DataLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67ABFBE2CF0EDEE0038FAFD /* DataLogic.swift */; };
 		A67ABFC12CF111610038FAFD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67ABFC02CF111610038FAFD /* MainViewController.swift */; };
 		A67ABFC52CF114350038FAFD /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67ABFC42CF114350038FAFD /* NoteViewController.swift */; };
+		A69801512D1736D6005FCD88 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69801502D1736D6005FCD88 /* UIView.swift */; };
 		A6B174ED2D044F000042DE12 /* Gilroy-UltraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6B174E32D044EFF0042DE12 /* Gilroy-UltraLight.ttf */; };
 		A6B174EE2D044F000042DE12 /* Gilroy-UltraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6B174E32D044EFF0042DE12 /* Gilroy-UltraLight.ttf */; };
 		A6B174EF2D044F000042DE12 /* Gilroy-UltraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6B174E32D044EFF0042DE12 /* Gilroy-UltraLight.ttf */; };
@@ -101,6 +102,7 @@
 		A67ABFBE2CF0EDEE0038FAFD /* DataLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLogic.swift; sourceTree = "<group>"; };
 		A67ABFC02CF111610038FAFD /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		A67ABFC42CF114350038FAFD /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
+		A69801502D1736D6005FCD88 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		A6B174E32D044EFF0042DE12 /* Gilroy-UltraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gilroy-UltraLight.ttf"; path = "../../../../Quick Recipe/Quick Recipe/Front/Gilroy-UltraLight.ttf"; sourceTree = "<group>"; };
 		A6B174E42D044EFF0042DE12 /* Gilroy-Extrabold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gilroy-Extrabold.ttf"; path = "../../../../Quick Recipe/Quick Recipe/Front/Gilroy-Extrabold.ttf"; sourceTree = "<group>"; };
 		A6B174E52D044EFF0042DE12 /* Gilroy-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gilroy-Heavy.ttf"; path = "../../../../Quick Recipe/Quick Recipe/Front/Gilroy-Heavy.ttf"; sourceTree = "<group>"; };
@@ -172,6 +174,7 @@
 		A67ABF872CF0DE500038FAFD /* Notes */ = {
 			isa = PBXGroup;
 			children = (
+				A698014F2D1736AE005FCD88 /* Extension */,
 				A67ABFB82CF0E0BB0038FAFD /* Models */,
 				A67ABFB92CF0E0C50038FAFD /* Views */,
 				A67ABFBA2CF0E0D00038FAFD /* Controllers */,
@@ -227,6 +230,14 @@
 				A67ABFC02CF111610038FAFD /* MainViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A698014F2D1736AE005FCD88 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A69801502D1736D6005FCD88 /* UIView.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		A6CBED3D2D044B92004459E4 /* Resources */ = {
@@ -513,6 +524,7 @@
 			files = (
 				A67ABF892CF0DE500038FAFD /* AppDelegate.swift in Sources */,
 				A67ABFBF2CF0EDEE0038FAFD /* DataLogic.swift in Sources */,
+				A69801512D1736D6005FCD88 /* UIView.swift in Sources */,
 				A6B1750D2D0477D00042DE12 /* SetupColor.swift in Sources */,
 				A67ABFC12CF111610038FAFD /* MainViewController.swift in Sources */,
 				A62361DA2CF1E87E00F168C6 /* SetupTable.swift in Sources */,

@@ -35,12 +35,11 @@ class MainViewController: UIViewController {
     
     // MARK: Настройка таблицы
     func setupTableView() {
-        tableView.translatesAutoresizingMaskIntoConstraints = false
         // устанавливаем делегаты
         tableView.delegate = self
         tableView.dataSource = self
         tableView.reloadData()
-        view.addSubview(tableView)
+        view.addSubviews([tableView])
         
         // Настраиваем Auto Layout
         NSLayoutConstraint.activate([
